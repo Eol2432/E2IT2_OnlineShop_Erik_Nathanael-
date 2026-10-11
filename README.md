@@ -21,7 +21,5 @@
                     Die HTMl-Datein "Support.html" und "Acc_erstellen.html" wurden auf der Startseite verlinkt.
 
 (Erik)  11.10.2026: Erstellung des HTML-Dokuments "Menu"
- 
 
-
-
+(Nathi) 11.10.2026: CSS-Datei: "sytles.css" erstellt.
