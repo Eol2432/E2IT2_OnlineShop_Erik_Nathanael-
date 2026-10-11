@@ -18,7 +18,10 @@
 
                     Damit Benutzer, die bereits ein Konto haben, sich einfach anmelden können, wurden Eingabefelder für Benutzername und Passwort erstellt. Außerdem ein Button, der die Anmeldung des Benutzers abschließt. Der Button hat NOCH KEINE Funktion. 
                     Neben die Eingabefelder wurden noch kleine Icons hinzugefügt.
-                    Die HTMl-Datein "Support.html" und "Acc_erstellen.html" wurden auf der Startseite verlinkt. 
+                    Die HTMl-Datein "Support.html" und "Acc_erstellen.html" wurden auf der Startseite verlinkt.
+
+(Erik)  11.10.2026: Erstellung des HTML-Dokuments "Menu"
+ 
 
 
 
