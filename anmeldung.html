@@ -1,16 +1,16 @@
 <html>
 
-    <head>
-        <title>Registrierung</title>
-    </head>
+<head>
+    <title>Anmeldung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        
+<body>
 
         <div class="Login">
         <form action="">
 
-            <h1>Registrierung</h1>
+            <h1>Anmeldung</h1>
 
             <p> Hier kann das Benutzer-Konto mit Benutzername und passwort angelegt werden. Es ist nötig, da es hier möglich ist Bücher/E-Books zu kaufen (Geld auszugeben). 
                 Um Ihr Geld, Ihre Privatsphäre und Ihre Sichereheit zu schützen, muss das Konto erstellt, damit z.B. keine ungewünschten Bestellungen ohne 
@@ -23,10 +23,12 @@
             </p>
 
             <br>
+
                 <div class="input-box">
                     <input type="text" placeholder = "Benutzername" required>
                     <img src="image/user.jpg" alt="User" height="20" width="20">
                 </div>
+
                 <div class="input-box">
                     <input type="password" placeholder="Passwort" required>
                     <img src="image/Schloss.jpg" alt="Schloss" height="20" width="20">
@@ -35,19 +37,18 @@
                 <br>
                 
                 <a href="index.html">
-                <button type="submit" class="btn1">Konto erstellen</button>
+                <button type="submit" class="button1" id="anmelden">Anmelden</button>
                 </a>
 
             </form>
-        </div>
-        
-        <br>
-        <br>
-        <br>
+            <div class="Registrieren">
+            <p>Noch kein Konto?</p>
+            <a href="registrieren.html">Konto erstellen</a>
 
-        <p>Klicken Sie <a href="index.html">HIER</a>, um wieder zur Startseite zu gelangen!</p>
+        
+            <p>Klicken Sie <a href="index.html" class="kleiner-link">HIER</a>, um wieder zur Startseite zu gelangen!</p>
     </body>
 
-
+</div>
 
 </html>
