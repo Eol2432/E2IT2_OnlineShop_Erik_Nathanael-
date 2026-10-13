@@ -1,0 +1,148 @@
+
+h1 {
+    background-color: #142D4E;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h3, h6, p {
+    padding-left: 10px;
+}
+
+img {
+    padding-left: 10px;
+}
+
+body {
+    background-color: #D6C6A5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    background-color: #142D4E;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+a:hover, #anmelden:hover {
+    background-color: #FFD166;
+    color: white
+}
+
+.kopfzeile {
+    background-color: #142D4E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.kopfzeile h1 {
+    color: white;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+.kopfzeile a {
+    background-color: #D6C6A5;
+    color: #142D4E;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+}
+
+.kopfzeile a:hover {
+    background-color: #FFD166;
+}
+
+.kopfzeile div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.kopfzeile img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.Login {
+    background-color: white;
+    width: 350px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Login .input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.Login h1 {
+    background-color: #142D4E;
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px
+}
+
+.input-box input {
+    padding: 10px;
+    width: 70%;
+}
+
+.input-box img {
+    vertical-align: middle;
+}
+
+
+.button1 {
+    background-color: #142D4E;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.button1:hover {
+    background-color: #294D78;
+    color: white;
+}
+
+.Login a {
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+a.kleiner-link {
+    padding: 0px;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+}
+
+a.kleiner-link:hover {
+    text-decoration: underline;
+}
