@@ -47,7 +47,7 @@ a {
 
 a:hover, #anmelden:hover {
     background-color: #FFD166;
-    color: white
+    color: white;
 }
 
 .kopfzeile {
@@ -88,7 +88,7 @@ a:hover, #anmelden:hover {
 .Login {
     background-color: white;
     width: 350px;
-    margin: 60px auto;
+    margin: 150px auto;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -108,9 +108,8 @@ a:hover, #anmelden:hover {
 }
 
 .input-box {
-    display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin: 15px
 }
 
@@ -123,22 +122,20 @@ a:hover, #anmelden:hover {
     vertical-align: middle;
 }
 
-
 .button1 {
     background-color: #142D4E;
     color: white;
-    padding: 10px 10px;
-    margin-left: 0px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 14px;
-    border-radius: 3px;
 }
 
 .button1:hover {
-    background-color: #294D78;
-    color: white;
+    background-color: #FFD166;
+    color: #142D4E;
 }
+
 
 .Login a {
     color: white;
