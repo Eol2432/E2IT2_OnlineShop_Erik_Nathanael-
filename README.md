@@ -60,3 +60,6 @@
                                                         Buttons pro Reihe sein.
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
                     Form und Position auf der Bilder auf der Startseite wurden angepasst.
+
+(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in "style.css" richtig angepasst, da der Hover nicht richtig
+                    funktioniert hat. Funktioniert jetzt.
