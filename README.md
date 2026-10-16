@@ -47,10 +47,16 @@
 
                     Ausrichtung: Der Hilfe-Button und das Warenkorb-Symbol wurden nebeneinander auf der rechten Seite der Kopfzeile angeordnet. Dafür wurde display: flex verwendet. Mit justify-content und align-items lassen sich die Elemente horizontal und vertikal ausrichten. Der Abstand zwischen den Elementen sorgt dafür, dass sie nicht direkt aneinanderkleben.
 
+(Nathi) 13.10.2026: Oben rechts auf der Startseite wurde ein Anmelde-Button erstellt, der zu "anmeldung.html" führt. Dort wurde das 
+                    Anmeldefenster, das bereits auf der Startseite existierte, kopiert und in die "anmeldung.html" reinkopiert, sodass das Anmelden auf einer anderen Seite stattfindet. Außerdem wurde das Anmeldefenster mit CSS schön zentriert, designt und angepasst. Text muss aber noch angepasst werden.
+
+                    Auf Startseite wurde der Text und die Bilder mithilfe von "padding-left" weiter nach rechts verschoben, sodass der Text und die Bilder nicht direkt am Rand sind.
+
+                    Die "registrieren.html" wurde erstellt. Diese Seite wird aufgerufen, sobald man beim Anmeldefenster auf "Konto erstellen" klickt.
+
 (Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und angepasst/gestalltet (mit img, Übershirften, border, Größen-und
                     Positionsanpassungen). 
                     Größen-und Positionsanpassungen:    Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3
                                                         Buttons pro Reihe sein.
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
-                    Form und Position auf der Bilder auf der Startseite wurden angepasst. 
-                    
+                    Form und Position auf der Bilder auf der Startseite wurden angepasst.
