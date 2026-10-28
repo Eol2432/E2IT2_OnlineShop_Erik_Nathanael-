@@ -199,3 +199,38 @@ a.kleiner-link:hover {
 .Schrift{
     text-align: center;
 }
+
+.Support {
+    background-color: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Support h2, .Support h3 {
+    color: #142D4E;
+}
+
+.Support a {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.Support details {
+    background-color: #D6C6A5;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.Support summary {
+    font-weight: bold;
+}
+
+.Support details p {
+    padding-left: 0;
+}

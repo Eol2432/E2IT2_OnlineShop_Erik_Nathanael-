@@ -9,7 +9,7 @@
 (Erik) 04.10.2026:  Es wurden die HTML-Dateien "Support.html" und "Acc_erstellen.html" erstellt.
                     Support.html:   Es wird darauf hingewiesen, dass man sich bei Problemen an die Sytemadministratoren wenden soll. 
                                     Kontaktdaten, wie E-Mail und Telefon-Nummer wurden in einer Stichpunktliste beigelegt.
-                    Acc_erstellen:  Damit Benutzer, die noch kein Konto haben, sich ein Konto erstellen können, 
+                    Acc_erstellen:  Damit Benutzer, die noch kein Konto haben, sich ein             Konto erstellen können, 
                                     wurden Eingabefelder für Benutzername und Passwort erstellt.
                                     Neben die Eingabefelder wurden noch kleine Icons hinzugefügt.
                                     Außerdem ein Button, der die Erstellung des Kontos abschließt. 
@@ -54,10 +54,11 @@
 
                     Die "registrieren.html" wurde erstellt. Diese Seite wird aufgerufen, sobald man beim Anmeldefenster auf "Konto erstellen" klickt.
 
-(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und angepasst/gestalltet (mit img, Überschriften, border, Größen-und Positionsanpassungen).
-                    Größen-und Positionsanpassungen:    Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3 Buttons pro Reihe sein.
+(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und          angepasst/gestalltet (mit img, Überschriften, border, Größen-und Positionsanpassungen).
+
+                    Größen-und Positionsanpassungen: Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3 Buttons pro Reihe sein.
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
                     Form und Position auf der Bilder auf der Startseite wurden angepasst.
 
-(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in "style.css" richtig angepasst, da der Hover nicht richtig
+(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in                    richtig angepasst, da der Hover nicht richtig
                     funktioniert hat. Funktioniert jetzt.
