@@ -54,10 +54,8 @@
 
                     Die "registrieren.html" wurde erstellt. Diese Seite wird aufgerufen, sobald man beim Anmeldefenster auf "Konto erstellen" klickt.
 
-(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und angepasst/gestalltet (mit img, Übershirften, border, Größen-und
-                    Positionsanpassungen). 
-                    Größen-und Positionsanpassungen:    Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3
-                                                        Buttons pro Reihe sein.
+(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und angepasst/gestalltet (mit img, Überschriften, border, Größen-und Positionsanpassungen).
+                    Größen-und Positionsanpassungen:    Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3 Buttons pro Reihe sein.
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
                     Form und Position auf der Bilder auf der Startseite wurden angepasst.
 
