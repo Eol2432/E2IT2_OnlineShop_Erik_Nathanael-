@@ -62,3 +62,9 @@
 
 (Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in                    richtig angepasst, da der Hover nicht richtig
                     funktioniert hat. Funktioniert jetzt.
+
+(Nathi) 29.10.2026: Bisher wurde alles in die style.css geschrieben. Man hat jetzt 2 neue CSS-Dateien erstellt:
+                    "Support.css" und
+                    "anmeldung.css"
+
+                    In diese zwei wurde jetzt der zugehörige Code aus der "style.css" eingefügt und angepasst, sodass es jetzt deutlich übersichtlicher ist und es auch kein Problem mehr mit den Klassen gibt. Dementsprechend wurde der Code dann aus der "style.css" entfernt, sodass nichts doppelt vorhanden ist.
