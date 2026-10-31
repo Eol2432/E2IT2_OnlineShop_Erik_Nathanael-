@@ -1,0 +1,72 @@
+h1 {
+    background-color: #142D4E;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    background-color: #D6C6A5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    background-color: #142D4E;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #FFD166;
+    color: white;
+}
+
+.btn {
+    padding: 20px;
+    border-width: 10px;
+    margin-left: 20px;
+    border-radius: 24px;
+}
+
+.Ben {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Anw {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.btn h3 {
+    margin-left: -8px;
+}
+
+.btn img {
+    margin-left: -8px;
+}
+
+#Konto {
+    margin-right: 1px;
+}
+
+.Ohne {
+    padding: 27px;
+}
+
+#Bib {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.Schrift {
+    text-align: center;
+}
