@@ -54,13 +54,13 @@
 
                     Die "registrieren.html" wurde erstellt. Diese Seite wird aufgerufen, sobald man beim Anmeldefenster auf "Konto erstellen" klickt.
 
-(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und          angepasst/gestalltet (mit img, Überschriften, border, Größen-und Positionsanpassungen).
+(Erik) 15.10.2026:  Erstellung von "Hauptmenü.html". 6 Buttons wurden erstellt und angepasst/gestaltet (mit img, Überschriften, border, Größen-und Positionsanpassungen).
 
                     Größen-und Positionsanpassungen: Alle Buttons sollen gleich groß und in der Mitte der Seite zentriert sein. Dazu sollen nur je 3 Buttons pro Reihe sein.
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
                     Form und Position auf der Bilder auf der Startseite wurden angepasst.
 
-(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in                    richtig angepasst, da der Hover nicht richtig
+(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in anmeldung.css richtig angepasst, da der Hover nicht richtig
                     funktioniert hat. Funktioniert jetzt.
 
 (Nathi) 29.10.2026: Bisher wurde alles in die style.css geschrieben. Man hat jetzt 2 neue CSS-Dateien erstellt:
@@ -68,3 +68,18 @@
                     "anmeldung.css"
 
                     In diese zwei wurde jetzt der zugehörige Code aus der "style.css" eingefügt und angepasst, sodass es jetzt deutlich übersichtlicher ist und es auch kein Problem mehr mit den Klassen gibt. Dementsprechend wurde der Code dann aus der "style.css" entfernt, sodass nichts doppelt vorhanden ist.
+
+                    Außerdem wurde die Support-Seite mit CSS gestaltet:
+                    Es wurde der gleiche Aufbau und die gleichen Farben verwendet wie bei der "anmeldung.html".
+                    Aus der Telefonnummer wurde ein Button, der aber noch unschlüssig ist, wo er hinführen soll. Das Selbe mit der E-Mail.
+                    Darunter wurden aufklappbare "summarys" erstellt, die dem Nutzer helfen sollen. Der "Zurück zur Startseite-Button wurde auch wieder gestaltet.
+
+(Nathi) 31.10.2026: Komplette Umgestaltung der Startseite: "index.html" und "style.css". Es wurde folgendes umgestaltet:
+                    Die Kopfzeile wurde durch ein Symbol und einem großen Rabatt-Schild erweitert. Sonst blieb alles gleich.
+                    Es wurde ein Fenster wie eine Art Begrüßung erstellt und mit einem Button: "Zur Bibliothek" bestückt, der zur "anmeldung.html" führt, da man sich, bevor man Bücher anschauen kann, sich bisher erst anmelden muss.
+                    Dann wurden darunter 3 Fenster erstellt und gestaltet, die den Käufer neugierig werden lassen sollen.
+                    Darunter wurde ein weiteres Fenster erstellt, das den Käufer darüber informiert, dass er sich anmelden kann.
+                    Darunter ist wieder ein Fenster, das die Seite einfach füllen soll und auf den nächsten Abschnitt ableitet.
+                    Dort sind dann wie vorher unsere Texte, die jetzt schöner dort dargestellt wurden.
+                    Am unteren Ende der Webseite sind dann noch paar Sätze und Symbole, die den Käufer anziehen sollen.
+                    Ganz am Ende soll es noch wie eine Art Abschluss geben, der aber noch vom Text her umgeändert werden müsste.
