@@ -61,5 +61,13 @@
                     Das Grunddesign (Hintergrundfarbe, Überschriftengestalltung, etc.) der Datei wurde übernommen. Unter dem Button "Anmelden" wurde die "Hauptmenü.html" verlinkt. Kurtzer Info-Satz ("Suchen Sie eine Option aus:") hinzugefügt und Rückkehr zur Startseite wurde verlinkt. 
                     Form und Position auf der Bilder auf der Startseite wurden angepasst.
 
-(Nathi) 16.10.2025: Anmelde-Button in "anmeldung.html" korrigiert und in "style.css" richtig angepasst, da der Hover nicht richtig
+(Nathi) 16.10.2026: Anmelde-Button in "anmeldung.html" korrigiert und in "style.css" richtig angepasst, da der Hover nicht richtig
                     funktioniert hat. Funktioniert jetzt.
+
+(Erik) 31.10.2026:  Zur Strukturierung der CSS-Dateien wurde der Code für die Hauptmenü.html in eine separate CSS-Datei namens Hauptmenü.css geschrieben.
+                    Erstellung, vollständige Codierung und Gestalltung von Bibliothek.html.
+                    Zur Gestalltung von Bibliothek.html wurde ebenfalls Bibliothek.css erstellt und vollständig codiert.
+                    In Bibliothek.html wurden fünf "kaufbare" Artikel hinzugefügt (zum shoppen). Man kann auf den Artikel klicken, um auf einer separaten Seite (A1,A2,A3 etc... .html) näher besichtigen und weitere Informationen zum Artikel erlangen. Zur Gestalltung der A1, A2, A3, A4 und A5.html wurde Anzeige.css erstellt und codiert.  
+                    Die linke dunkelblaue Seitenleiste auf Bibliothek.html soll es ermöglichen direkt in eine der 5 anderen Menüs (wie in Hauptmenü.html angegeben) zu gelangen. Zu jedem der Menüs wurde eine .html-Datei erstellt und nur das Basis Design übernommen sonst nichts. 
+                    Die rechte dunkelblaue Seitenleiste auf Bibliothek.html sollen in Zukunft (mit JavaSkript programmierte) filter sein, um nach bestimmten Buchkathegorien zu filtern (aktuell keine Funktion). 
+                    
