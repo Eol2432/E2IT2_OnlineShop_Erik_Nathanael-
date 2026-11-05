@@ -41,17 +41,18 @@ a:hover {
 }
 
 .Anw{
+    height: 224.27;
     display: flex;
     justify-content: center; 
     gap: 22px;               
-    margin-top: 20px; 
+    margin-top: 20px;
+    
 }
 
-.btn h3{
-    margin-left: -8px;
-}
+
 
 .btn img{
+    text-align: center;
     margin-left: -8px;
 }
 
@@ -64,8 +65,7 @@ a:hover {
 }
 
 #Bib{
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding: 24.0px;
 }
 
 .Schrift{
