@@ -93,3 +93,7 @@
                     Dort sind dann wie vorher unsere Texte, die jetzt schöner dort dargestellt wurden.
                     Am unteren Ende der Webseite sind dann noch paar Sätze und Symbole, die den Käufer anziehen sollen.
                     Ganz am Ende soll es noch wie eine Art Abschluss geben, der aber noch vom Text her umgeändert werden müsste.
+
+(Erik) 5.11.2026:   Ich habe die einzelnen Buttons, die Aufgrund der Fehlermeldung verschoben und unterschiedlich groß waren, wieder einheitlich
+                    Positioniert und die größe angepasst.
+                    
