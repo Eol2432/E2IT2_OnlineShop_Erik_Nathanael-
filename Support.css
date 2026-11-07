@@ -4,11 +4,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 .Support {
@@ -25,6 +20,46 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "kopf"
+        "inhalt"
+        "trennlinie"
+        "fragen"
+        "fuss";
+    gap: 0;
+    align-content: start;
+}
+
+.Support .kopf {
+    grid-area: kopf;
+}
+
+.Support .inhalt {
+    grid-area: inhalt;
+}
+
+.Support .trennlinie {
+    grid-area: trennlinie;
+}
+
+.Support .fragen {
+    grid-area: fragen;
+    height: 180px;
+    min-height: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Support .fuss {
+    grid-area: fuss;
+    height: 120px;
+    box-sizing: border-box;
+    padding-top: 34px;
+    text-align: center;
 }
 
 .Support h1 {
