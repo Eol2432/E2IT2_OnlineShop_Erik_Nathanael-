@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D6C6A5;
+    color: #142D4E;
+}
+
+.kopfzeile {
+    background-color: #142D4E;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+
+.kopfzeile h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.kopf-links {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.kopf-links a {
+    background-color: #D6C6A5;
+    color: #142D4E;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+}
+
+.kopf-links a:hover {
+    background-color: #FFD166;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    padding: 30px;
+    align-items: start;
+}
+
+.warenkorb {
+    background-color: #F5E9D5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.kleiner-text {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.warenkorb-produkt {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 130px 1fr 130px;
+    gap: 20px;
+    align-items: center;
+}
+
+.buch-bild {
+    width: 130px;
+    height: 180px;
+}
+
+.buch-bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.buch-info h3 {
+    margin: 5px 0 10px;
+}
+
+.buch-info p {
+    margin: 8px 0;
+}
+
+.autor {
+    color: #666666;
+}
+
+.verfuegbar {
+    color: green;
+    font-weight: bold;
+}
+
+.buch-preis {
+    font-weight: bold;
+}
+
+.buch-menge {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buch-menge input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #142D4E;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.entfernen {
+    background-color: #142D4E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.entfernen:hover {
+    background-color: #FFD166;
+}
+
+.alles-loeschen {
+    background-color: #B23A48;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.alles-loeschen:hover {
+    background-color: #FFD166;
+    color: #142D4E;
+}
+
+.shop-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #142D4E;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.shop-link:hover {
+    background-color: #FFD166;
+    color: #142D4E;
+}
+
+.bestellung {
+    background-color: #F5E9D5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bestellung h2 {
+    margin-top: 0;
+}
+
+.preis-zeile {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.rabatt-zeile {
+    color: green;
+}
+
+.gesamtpreis {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.rabatt-hinweis {
+    background-color: #FFD166;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.kaufen-link {
+    display: block;
+    text-align: center;
+    background-color: #142D4E;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.kaufen-link:hover {
+    background-color: #FFD166;
+    color: #142D4E;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: #F5E9D5;
+    flex-wrap: wrap;
+}
+
+.service div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.service span {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #142D4E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 30em) {
+
+    .kopfzeile {
+        flex-direction: column;
+        gap: 0.8em;
+        padding: 1em;
+    }
+
+    .kopf-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5em;
+    }
+
+    .kopf-links a {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        padding: 0.8em;
+    }
+
+    .warenkorb-produkt {
+        grid-template-columns: 5.5em 1fr;
+    }
+
+    .buch-bild {
+        width: 5.5em;
+        height: 8em;
+    }
+
+    .buch-menge {
+        grid-column: 1 / -1;
+    }
+}
