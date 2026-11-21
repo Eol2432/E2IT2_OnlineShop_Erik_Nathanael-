@@ -1,0 +1,116 @@
+<html>
+
+    <head>
+        <title>Ausfüllen</title>
+        <link rel="stylesheet" href="Ausfüllen.css">
+
+
+    </head>
+
+
+    <body>
+        <header class="kopfzeile">
+
+            <h1>📖 LernLesen</h1>
+
+            <div class="kopf-links">
+                <a href="Support.html">Hilfe</a>
+                <a href="Hauptmenü.html">Zurück zum Hauptmenü</a>
+                <a href="Bibliothek.html">Zurück zur Bibliothek</a>
+                
+            </div>
+        
+        </header>
+
+        <main>
+            
+            <div class="seiten-titel">
+                <p class="kleiner-text">MEIN BEREICH</p>
+                <h2>Ausfüllen 👤</h2>
+                <p>Willkommen bei LernLesen! Hier kannst du eine Produktanzeige für die Bücher erstellen, die du verkaufen willst. Fülle dafür die folgenden Felder aus:</p>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="alle">
+                <div class="aus">
+                    <form>
+                        <h4>Wie heißt der Vollständige Titel des Buches?</h4>
+                        <input type="text" id="title" name="title" placeholder="Vollständiger Titel des Buches">
+                        <h4>Wie heißt der Autor mit vollem Namen?</h4>
+                        <input type="text" id="autor" name="autor" placeholder="Vollständiger Name des Autors">
+                    </form>
+                </div>
+
+
+                <div class="aus">
+                    <form>
+                        <h4>Wie lautet die ISBN-Nummer des Buches?</h4>
+                        <input type="text" id="isbn" name="isbn" placeholder="Vollständiger ISBN des Buches">
+                    </form>
+                </div>
+
+
+                <div class="aus">
+                    <form>
+                        <h4>Beschreibe kurz den Inhalt des Buches./Worum handelt das Buch?</h4>
+                        <input type="text" id="besch" name="besch" placeholder="Worum handelt das Buch?">
+                    </form>
+                </div>
+
+
+                <div>
+                    <h4>Wählen den Zustand des Buches:</h4>
+                    
+                    <label>Neu</label>
+                    <input type="radio" name="status" >
+
+                    <label>Gebraucht</label>
+                    <input type="radio" name="status" >
+                </div>
+
+                <div class="aus">
+                    <h4>Was ist das für ein Buch?</h4>
+                    <label for="art">Buchart:</label>
+                    <select name="art" id="art">Buchart
+                        <option>Roman</option>
+                        <option>Krimi</option>
+                        <option>Sachbuch</option>
+                        <option>Manga</option>
+                        <option>Comic</option>
+                        <option>Thriller</option>
+                    </select>
+                </div>
+
+                <div class="aus">
+                    <h4>In welcher Sprache ist das Buch geschrieben?</h4>
+                    <label for="art">Sprache:</label>
+                    <select name="art" id="art">
+                        <option>Deutsch</option>
+                        <option>Englisch</option>
+                        <option>Französisch</option>
+                        <option>Spanisch</option>
+                        <option>Russisch</option>
+                        <option>Italienisch</option>
+                    </select>
+                            
+                </div>
+
+                <div class="aus">
+                    <form>
+                        <h4>Geben Sie den Verkaufspreis an.</h4>
+                        <input type="text" id="preis" name="preis" placeholder="Preis?">
+                    </form>
+                </div>
+
+                <input type="submit" value="Anzeige erstellen">
+            </div>
+        </main>
+
+    </body>
+
+
+
+
+</html>
