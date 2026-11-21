@@ -96,4 +96,8 @@
 
 (Erik) 5.11.2026:   Ich habe die einzelnen Buttons, die Aufgrund der Fehlermeldung verschoben und unterschiedlich groß waren, wieder einheitlich
                     Positioniert und die größe angepasst.
-                    
+
+(Nathi) 21.11.2026: Ich habe die anmeldung.css; Konto.css; Support.css und die Warenkorb.css so angepasst, dass man sie auch über das Handy und                 Tablet gutaussehend aufrufen kann.
+                    Auch habe ich die Warenkorb.html und .css sowie die Konto.html und css. erstellt:
+                    Im Warenkorb sehe ich meine Produkte, die ich in den Warenkorb gelegt habe. Funktionen folgen alle noch mit JS. Auch kann ich die Menge der Produkte ändern. Außerdem kann ich auch jedes Produkt einzelnt aus dem Warenkorb entfernen. Auch kann ich den gesamten Warenkorb mit einem Button "Alles löschen" löschen. Rechts daneben gibt es die Bestellübersicht, die dann später die Preise der Produkte, die im Warenkorb liegen, zusammenrechnet und auch dann noch bei einem bestimmten Einkaufspreis Rabatt gibt. Darunter gibt es noch einen "Zur Kasse" Button. Dieser soll dann später zu einer anderen html. führen, wo man dann nochmal alles angibt und endgültig bestellt. Der Rest der Seite ist von der style.css kopiert.
+                    Bei der Konto.html habe ich die Seite in 4 Kästen geteilt: "Meine persönlichen Daten"; "Meine Bestellungen"; "Meine Einstellungen" und "Meine Wunschliste". Im ersten Kasten kann man seine Daten eintragen wie Vor- und Nachname, E-Mail-Adresse und Geburtsdatum. Hier sollte man dann später auch alles bearbeiten können und speichern. Rechts daneben soll man seine Bestellungen sehen, die man bereits gekauft hat und den Status, ob schon zugestellt oder noch in Bearbeitung. In den anderen Kästen kann man noch sein Passwort zurücksetzen und Benachrichtigungen an oder ausschalten. Und man kann auch noch dann seine Wunschliste sehen. Der Rest war so gut wie wieder von der Startseite rauskopiert.

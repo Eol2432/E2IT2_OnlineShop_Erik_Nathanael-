@@ -1,16 +1,156 @@
-<html>
 
-    <head>
-        <title>Warenkorb</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LernLesen - Warenkorb</title>
+    <link rel="stylesheet" href="warenkorb.css">
+</head>
 
+<body>
 
-    
-    <body>
-        <h1>Warenkorb</h1>
-    </body>
+    <header class="kopfzeile">
 
+        <h1>📖 LernLesen</h1>
 
+        <div class="kopf-links">
+            <a href="Support.html">Hilfe</a>
+            <a href="Hauptmenü.html">Zurück zum Hauptmenü</a>
+        </div>
 
+    </header>
+
+    <main>
+
+        <section class="warenkorb">
+
+            <div class="warenkorb-titel">
+                <p class="kleiner-text">DEINE AUSWAHL</p>
+                <h2>🛒 Dein Warenkorb</h2>
+                <p>Hier findest du deine ausgewählten Bücher.</p>
+            </div>
+
+            <div class="warenkorb-produkt">
+
+                <div class="buch-bild">
+                    <img src="image/B1.jpg" alt="Pokemon Manga Band 1">
+                </div>
+
+                <div class="buch-info">
+                    <p class="autor">Hidenori Kusaka</p>
+                    <h3>Pokemon Manga Band 1</h3>
+                    <p>ISBN: 978-3-95798-636-8</p>
+                    <p class="verfuegbar">✔ Verfügbar</p>
+                    <p class="buch-preis">6,99 € pro Buch</p>
+                </div>
+
+                <div class="buch-menge">
+                    <label for="menge1">Anzahl:</label>
+                    <input type="number" id="menge1" name="menge1" value="1" min="1">
+
+                    <button class="entfernen" type="button">
+                        🗑 Entfernen
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="warenkorb-produkt">
+
+                <div class="buch-bild">
+                    <img src="image/Japan.jpg" alt="Reiseführer Japan">
+                </div>
+
+                <div class="buch-info">
+                    <p class="autor">Dorling Kindersley Ltd.</p>
+                    <h3>Reiseführer Japan</h3>
+                    <p>ISBN: 3-8310-0055-7</p>
+                    <p class="verfuegbar">✔ Verfügbar</p>
+                    <p class="buch-preis">10,99 € pro Buch</p>
+                </div>
+
+                <div class="buch-menge">
+                    <label for="menge2">Anzahl:</label>
+                    <input type="number" id="menge2" name="menge2" value="1" min="1">
+
+                    <button class="entfernen" type="button">
+                        🗑 Entfernen
+                    </button>
+                </div>
+
+            </div>
+
+            <button class="alles-loeschen" type="button">
+                🗑 Alles löschen
+            </button>
+
+            <a href="Bibliothek.html" class="shop-link">
+                ← Weiter einkaufen
+            </a>
+
+        </section>
+
+        <section class="bestellung">
+
+            <h2>📦 Bestellübersicht</h2>
+
+            <div class="preis-zeile">
+                <span>Zwischensumme:</span>
+                <span>17,98 €</span>
+            </div>
+
+            <div class="preis-zeile">
+                <span>Versand:</span>
+                <span>4,99 €</span>
+            </div>
+
+            <div class="preis-zeile rabatt-zeile">
+                <span>Rabatt:</span>
+                <span>0,00 €</span>
+            </div>
+
+            <hr>
+
+            <div class="gesamtpreis">
+                <span>Gesamt:</span>
+                <span>22,97 €</span>
+            </div>
+
+            <p class="rabatt-hinweis">
+                🎁 Ab 50 € Einkaufswert erhältst du 10 % Rabatt!
+            </p>
+
+            <a href="Bestellung.html" class="kaufen-link">
+                Zur Kasse →
+            </a>
+
+        </section>
+
+    </main>
+
+    <section class="service">
+
+        <div>
+            <span>📦</span>
+            <h3>Versand</h3>
+            <p>Deine Bücher bequem nach Hause geliefert.</p>
+        </div>
+
+        <div>
+            <span>💳</span>
+            <h3>Bequem bezahlen</h3>
+            <p>Einfach und unkompliziert einkaufen.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>📖 LernLesen - Lesen verbindet Generationen</p>
+
+        <p>
+            📦 Bequemer Versand |
+            💳 Bequem bezahlen |
+            📚 Große Buchauswahl
+        </p>
+    </footer>
+
+</body>
 </html>

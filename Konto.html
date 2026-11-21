@@ -1,16 +1,192 @@
-<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Konto - LernLesen</title>
+    <link rel="stylesheet" href="Konto.css">
+</head>
+<body>
 
-    <head>
-        <title>Konto</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <header class="kopfzeile">
+
+        <h1>📖 LernLesen</h1>
+
+        <div class="kopf-links">
+            <a href="Support.html">Hilfe</a>
+            <a href="Hauptmenü.html">← Zurück zum Hauptmenü</a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="seiten-titel">
+            <p class="kleiner-text">MEIN BEREICH</p>
+            <h2>Mein Konto 👤</h2>
+            <p>Willkommen bei LernLesen! Hier kannst du dein Konto verwalten.</p>
+        </div>
 
 
-    
-    <body>
-        <h1>Konto</h1>
-    </body>
+        <section class="konto-grid">
 
+            <div class="konto-box profil">
 
+                <h3>👤 Meine persönlichen Daten</h3>
 
+                <form>
+
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" id="vorname" name="vorname" value="Max">
+
+                    <label for="nachname">Nachname:</label>
+                    <input type="text" id="nachname" name="nachname" value="Mustermann">
+
+                    <label for="email">E-Mail-Adresse:</label>
+                    <input type="email" id="email" name="email"
+                    value="max.mustermann@email.de">
+
+                    <label for="geburtstag">Geburtsdatum:</label>
+                    <input type="date" id="geburtstag" name="geburtstag">
+
+                    <button type="button" class="speichern">
+                        Änderungen speichern
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="konto-box bestellungen">
+
+                <h3>📦 Meine Bestellungen</h3>
+
+                <div class="bestellung-eintrag">
+                    <p><strong>Bestellung #1001</strong></p>
+                    <p>Pokémon Manga Band 1</p>
+                    <p>Bestelldatum: 12.11.2026</p>
+                    <span class="status">✔ Zugestellt</span>
+                </div>
+
+                <div class="bestellung-eintrag">
+                    <p><strong>Bestellung #1002</strong></p>
+                    <p>Reiseführer Japan</p>
+                    <p>Bestelldatum: 16.11.2026</p>
+                    <span class="status unterwegs">📦 In Bearbeitung</span>
+                </div>
+
+                <a href="Bibliothek.html" class="konto-link">
+                    Weiter einkaufen
+                </a>
+
+            </div>
+
+            <div class="konto-box einstellungen">
+
+                <h3>⚙️ Meine Einstellungen</h3>
+
+                <form>
+
+                    <label for="passwort">Neues Passwort:</label>
+                    <input type="password" id="passwort" name="passwort"
+                    placeholder="Neues Passwort eingeben">
+
+                    <label for="passwort2">Passwort wiederholen:</label>
+                    <input type="password" id="passwort2" name="passwort2"
+                    placeholder="Passwort wiederholen">
+
+                    <p class="einstellung-text">Benachrichtigungen:</p>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">
+                            Newsletter erhalten
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="angebote" name="angebote">
+                        <label for="angebote">
+                            Informationen über Angebote erhalten
+                        </label>
+                    </div>
+
+                    <button type="button" class="speichern">
+                        Einstellungen speichern
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="konto-box wunschliste">
+
+                <h3>❤️ Meine Wunschliste</h3>
+
+                <div class="wunsch-buch">
+                    <img src="image/B1.jpg" alt="Pokémon Manga Band 1">
+
+                    <div>
+                        <p><strong>Pokémon Manga Band 1</strong></p>
+                        <p>6,99 €</p>
+                    </div>
+                </div>
+
+                <div class="wunsch-buch">
+                    <img src="image/Japan.jpg" alt="Reiseführer Japan">
+
+                    <div>
+                        <p><strong>Reiseführer Japan</strong></p>
+                        <p>10,99 €</p>
+                    </div>
+                </div>
+
+                <a href="Bibliothek.html" class="konto-link">
+                    Bücher entdecken
+                </a>
+
+            </div>
+
+            <div class="konto-box support">
+
+                <h3>💬 Hilfe & Support</h3>
+
+                <p>Du hast Fragen zu deinem Konto oder einer Bestellung?</p>
+
+                <p>Unser LernLesen-Team hilft dir gerne weiter.</p>
+
+                <a href="Support.html" class="konto-link">
+                    Zum Support
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <section class="service">
+
+        <div>
+            <span>📦</span>
+            <h3>Schneller Versand</h3>
+            <p>Deine Bücher kommen sicher bei dir an.</p>
+        </div>
+
+        <div>
+            <span>💳</span>
+            <h3>Sicher bezahlen</h3>
+            <p>Verschiedene Zahlungsmöglichkeiten.</p>
+        </div>
+
+        <div>
+            <span>💬</span>
+            <h3>Persönlicher Support</h3>
+            <p>Wir helfen dir bei Fragen gerne weiter.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 LernLesen – Lesen macht die Welt größer.</p>
+    </footer>
+
+</body>
 </html>
